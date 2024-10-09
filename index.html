@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div>
+        <h1 class="h1">IMAGE GALLERY</h1>
+    </div>
+    <div class="gallery">
+        <img src="images/image1.jpg" alt="Image 1" class="gallery-item">
+        <img src="images/image2.jpg" alt="Image 2" class="gallery-item">
+        <img src="images/image3.jpg" alt="Image 3" class="gallery-item">
+        <img src="images/image4.jpg" alt="Image 4" class="gallery-item">
+        <img src="images/image5.jpg" alt="Image 5" class="gallery-item">
+        <img src="images/image6.jpg" alt="Image 6" class="gallery-item">
+        <img src="images/image 7.jpg" alt="Image 7" class="gallery-item">
+        <img src="images/image 8.jpg" alt="Image 8" class="gallery-item">
+        <img src="images/image 9.jfif" alt="Image 9" class="gallery-item">
+        <img src="images/image 10.jfif" alt="Image 10" class="gallery-item">
+        <img src="images/image 11.jpg" alt="Image 11" class="gallery-item">
+        <img src="images/image 12.jpg" alt="Image 12" class="gallery-item">
+        <img src="images/image 13.jpg" alt="Image 13" class="gallery-item">
+        <img src="images/image 14.jpg" alt="Image 14" class="gallery-item">
+        <img src="images/image 15.jfif" alt="Image 15" class="gallery-item">
+        <img src="images/image 16.jfif" alt="Image 16" class="gallery-item">
+        <img src="images/image 17.jfif" alt="Image 17" class="gallery-item">
+        <img src="images/image 18.jfif" alt="Image 18" class="gallery-item">
+        <img src="images/image 19.jfif" alt="Image 19" class="gallery-item">
+        <img src="images/image 20.jfif" alt="Image 20" class="gallery-item">
+        <img src="images/image 21.jfif" alt="Image 21" class="gallery-item">
+        <img src="images/image 22.jfif" alt="Image 22" class="gallery-item">
+        <img src="images/image 23.jfif" alt="Image 23" class="gallery-item">
+        <img src="images/image 24.jfif" alt="Image 24" class="gallery-item">
+        <img src="images/image 25.jpg" alt="Image 25" class="gallery-item">
+        <img src="images/image 26.jpg" alt="Image 26" class="gallery-item">
+        <img src="images/image 27.jfif" alt="Image 27" class="gallery-item">
+        <img src="images/image 28.jfif" alt="Image 28" class="gallery-item">
+        <img src="images/image 29.jpg" alt="Image 29" class="gallery-item">
+        <img src="images/image 30.jpg" alt="Image 30" class="gallery-item">
+        <img src="images/image 31.jfif" alt="Image 31" class="gallery-item">
+        <img src="images/image 32.jpeg" alt="Image 32" class="gallery-item">
+        <img src="images/image 33.jpg" alt="Image 33" class="gallery-item">
+        <img src="images/image 34.jfif" alt="Image 34" class="gallery-item">
+        <img src="images/image 35.jfif" alt="Image 35" class="gallery-item">
+        <img src="images/image 36.jpg" alt="Image 36" class="gallery-item">
+
+        <!-- Add more images as needed -->
+    </div>
+
+    <!-- Modal for full-size image view -->
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div id="caption"></div>
+        
+        <!-- Navigation buttons -->
+        <a class="prev" onclick="changeImage(-1)">&#10094;</a>
+        <a class="next" onclick="changeImage(1)">&#10095;</a>
+    </div>
+
+    <script src="javascript/script.js"></script>
+</body>
+</html>
